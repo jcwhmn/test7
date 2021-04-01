@@ -22,6 +22,14 @@ import '../content/scss/vendor.scss';
 import UserOAuth2Service from '@/entities/user/user.oauth2.service';
 /* tslint:disable */
 
+import RegionMySuffixService from '@/entities/region-my-suffix/region-my-suffix.service';
+import CountryMySuffixService from '@/entities/country-my-suffix/country-my-suffix.service';
+import LocationMySuffixService from '@/entities/location-my-suffix/location-my-suffix.service';
+import DepartmentMySuffixService from '@/entities/department-my-suffix/department-my-suffix.service';
+import TaskMySuffixService from '@/entities/task-my-suffix/task-my-suffix.service';
+import EmployeeMySuffixService from '@/entities/employee-my-suffix/employee-my-suffix.service';
+import JobMySuffixService from '@/entities/job-my-suffix/job-my-suffix.service';
+import JobHistoryMySuffixService from '@/entities/job-history-my-suffix/job-history-my-suffix.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -73,6 +81,14 @@ new Vue({
     userService: () => new UserManagementService(),
 
     userOAuth2Service: () => new UserOAuth2Service(),
+    regionService: () => new RegionMySuffixService(),
+    countryService: () => new CountryMySuffixService(),
+    locationService: () => new LocationMySuffixService(),
+    departmentService: () => new DepartmentMySuffixService(),
+    taskService: () => new TaskMySuffixService(),
+    employeeService: () => new EmployeeMySuffixService(),
+    jobService: () => new JobMySuffixService(),
+    jobHistoryService: () => new JobHistoryMySuffixService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

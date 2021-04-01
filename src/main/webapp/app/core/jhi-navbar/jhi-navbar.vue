@@ -29,6 +29,38 @@
             <font-awesome-icon icon="th-list" />
             <span class="no-bold">Entities</span>
           </span>
+          <b-dropdown-item to="/region-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Region</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/country-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Country</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/location-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Location</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/department-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Department</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/task-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Task</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/employee-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Employee</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/job-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Job</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/job-history-my-suffix">
+            <font-awesome-icon icon="asterisk" />
+            <span>Job History</span>
+          </b-dropdown-item>
           <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
         </b-nav-item-dropdown>
         <b-nav-item-dropdown
