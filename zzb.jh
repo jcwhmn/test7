@@ -1,0 +1,61 @@
+class BaseEntity{
+  id Long required
+}
+class Organization{
+	name String required
+	type String required
+	description String
+}
+
+class Department {
+	name String required
+	description String
+}
+
+class Position {
+	name String required
+	description String
+	locationType String
+}
+
+class Location {
+	name String required
+	type String required
+	parent String
+}
+
+class Person {
+	name String required
+	email String
+	phone String
+	code String
+}
+
+class LoginUser {
+    login String required
+    password String required
+    name String
+}
+
+class Module {
+	name String required
+	code String required
+	iconUrl String
+	pagePath String
+	description String
+}
+
+class ModuleAction {
+	name String required
+	Order Integer
+}
+
+interface Dictionary {
+	value String required
+	type  String required
+	key   String
+}
+
+interface DictionaryType {
+	type  String required
+}
